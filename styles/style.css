@@ -97,7 +97,8 @@ body {
 
 .cover_title-text {
   font-size: 100px;
-  font-weight: bold;
+  font-weight: 700;
+  line-height: 1.15;
   letter-spacing: 30px;
   display: block;
 }
