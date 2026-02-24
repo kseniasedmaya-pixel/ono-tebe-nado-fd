@@ -3,7 +3,6 @@ body {
 }
 
 .header {
-  height: 293px;
   width: 100%;
   padding: 92px 50px 96px 50px;
   box-sizing: border-box;
@@ -94,7 +93,6 @@ body {
   flex-direction: column;
   gap: 20px;
   text-transform: uppercase;
-  height: 385px;
 }
 
 .cover_title-text {
@@ -141,7 +139,7 @@ body {
 }
 
 .bet-button {
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   width: 256px;
   padding: 12px 32px 11px 31px;
   background-color: transparent;
@@ -152,7 +150,6 @@ body {
 }
 
 .lots {
-  height: 723px;
   width: 1052px;
   margin: 180px 24px 120px 24px;
   box-sizing: border-box;
@@ -180,7 +177,7 @@ body {
 
 .lots_cards-list-item {
   width: 334px;
-  height: 596px;
+  min-height: 596px;
   display: flex;
 }
 
@@ -197,24 +194,20 @@ body {
   flex-direction: column;
   position: relative;
   justify-content: space-between;
+  background-size: cover;
+  background-position: center;
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .card_title {
@@ -245,7 +238,6 @@ body {
 }
 
 .about {
-  height: 595px;
   width: 1052px;
   margin: auto;
   margin-bottom: 180px;
@@ -307,7 +299,6 @@ body {
 }
 
 .footer {
-  height: 180px;
   width: 1100;
   padding: 0px 50px;
   box-sizing: border-box;
