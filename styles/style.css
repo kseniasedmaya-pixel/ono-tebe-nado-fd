@@ -85,7 +85,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 108px;
+  gap: 106px;
 }
 
 .cover_title {
