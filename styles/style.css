@@ -301,7 +301,7 @@ body {
 
 .footer {
   width: 1100;
-  padding: 0px 50px;
+  padding: 0px 50px 82px;
   box-sizing: border-box;
   color: black;
   display: grid;
@@ -320,14 +320,14 @@ body {
   list-style: none;
 }
 
-.footer_menu-link_active {
-  font-size: 18px;
-  text-decoration: none;
-}
-
 .footer_menu-link {
   font-size: 18px;
   text-decoration: underline;
+}
+
+.footer_menu-link_active {
+  font-size: 18px;
+  text-decoration: none;
 }
 
 .footer_social {
